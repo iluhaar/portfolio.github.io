@@ -10,3 +10,7 @@ window.addEventListener("DOMContentLoaded", () => {
     scaleMobile: 1.0,
   });
 });
+
+function cb(response) {
+    document.getElementById('visits').innerText = response.value;
+}
