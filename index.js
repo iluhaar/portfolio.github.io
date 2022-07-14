@@ -22,3 +22,7 @@ checkbox.addEventListener("click", (e) => {
     vanta.classList.remove("hidden");
   }
 });
+
+function cb(response) {
+  document.getElementById("visits").innerText = response.value;
+}
