@@ -5,30 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="assests/images/favicon.ico" type="image/x-icon" />
     <title>Illia Rudyi - Links</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
-    <script>
-      window.addEventListener("DOMContentLoaded", () => {
-        VANTA.GLOBE({
-          el: "#vanta",
-          mouseControls: true,
-          touchControls: true,
-          gyroControls: false,
-          minHeight: 200.0,
-          minWidth: 200.0,
-          scale: 1.0,
-          scaleMobile: 1.0,
-        });
-      });
-    </script>
+    <script async src="./index.js"></script>
   </head>
   <body>
     <div id="vanta"></div>
     <main>
       <header>
         <img src="./assests/images/illia.jpg" class="logo-me" alt="me" />
-        <h1>Illia Rudyi</h1>
+        <div>
+          <h1>
+            <a href="./cv-page.html" aria-placeholder="curriculum vitae"> Illia Rudyi </a>
+          </h1>
+          <!-- <div class="toggle-button-cover">
+            <div class="button-cover">
+              <div class="button r" id="button-2">
+                <input type="checkbox" class="checkbox" />
+                <div class="knobs"></div>
+                <div class="layer"></div>
+              </div>
+            </div>
+          </div> -->
+        </div>
       </header>
       <ul>
         <li class="social_wrapper">
