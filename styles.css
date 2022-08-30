@@ -214,3 +214,7 @@ a {
 .hidden {
   display: none;
 }
+
+.logo-me {
+  content: url("./assests/images/Illia.jpg");
+}
